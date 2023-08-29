@@ -1,0 +1,244 @@
+body 
+{
+    background-color: #dde5bc;
+    margin:0;
+}
+
+.logo
+{
+    display: inline-block;
+    color: #03626b;
+    font-family:Noto Serif ;
+    font-weight:bolder;
+    font-style: oblique;
+    font-size: 42px;
+    position: relative;
+    top: -10px;
+    right:37%;
+    margin-left: 50px;
+    padding:7px ;
+    border:  5px solid #03626b;
+    border-radius: 15px;
+    
+
+}
+
+/* The Style of Header*/
+
+.header
+{
+    text-align: center;
+    color:#03626b;
+    font-size: 30px;
+    background-color: #9bc6ab;
+    height:120px;
+    
+}
+.heading
+{
+    margin:1px;
+    position: relative;
+    bottom: 100%;
+}
+.text
+{
+    text-align: center;
+    color:#03626b;
+    font-size: large;  
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 100%;
+}
+
+/* The Style of The product*/
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.product-card {
+    flex: 1 25%;
+    text-align: center;
+    margin: 25px;
+    border: 10px solid #03626b;
+    border-radius: 15%;
+    padding: 30px 5px 0px  5px;
+    
+}
+.product-card img {
+    margin-bottom: 15px;
+}
+
+.product-rating
+{
+    color: #03626b;
+}
+
+.product-title
+{
+    color: #03626b;
+    margin:5px;
+}
+.product-price
+{
+    color: #03626b;
+    font-weight: bold;
+}
+
+/* The Style of The Deal Card*/
+.Deal-container
+{
+    background-color: #9bc6ab;
+    height: 470px;
+    width:1300px ;
+    position: relative;
+    left: 10%;
+}
+.Deal-header
+{
+   
+    position: relative;
+    font-size: 50px;
+    top:15%;
+    left: 7%;
+    color: #03626b;
+}
+.Deal-txt
+{
+    position: relative;
+    top:14%;
+    left:5px;
+    color: #03626b;
+    font-size: 15px;
+}
+
+.ShopBtn 
+{
+    
+    width: 150px;
+    height: 60px;
+    border: 2px solid #03626b;
+    background: #03626b;  
+    color:  #9bc6ab;
+    font-size: 15px;
+    position: relative;
+    bottom:260px;
+    left:100px;
+    padding: 10px 30px 10px 30px;
+    
+}
+
+.ShopBtn:hover
+{
+    background-color: #dde5bc;
+    color: #03626b
+}
+
+button a 
+{
+    text-decoration: none;
+    color:  #9bc6ab;
+}
+.Deal-box-container
+{
+   display: flex;
+   gap: 30px;
+   position: relative;
+   top: 14%;
+   left:100px;
+}
+.Deal-box
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number
+{
+    font-size: 37px;
+    font-weight: bold;
+    color: #03626b;
+}
+.timings
+{
+    color: #03626b;
+    font-size: 17px;
+}
+.img{
+    position: relative;
+    left:53%;
+    bottom: 208px;
+}
+
+/* The Style of The footer Content */
+footer
+{
+    background-color: #044750 ;
+    padding:20px;
+    text-align: center;
+    position: relative;
+    top:100px;
+}
+.ftr
+{
+  max-width: 960px;
+  margin: 0 auto;
+  color: white;
+}
+p
+{
+  margin: 0;
+}
+
+.media  {
+    font-size: 20px ;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 73%;
+}
+
+.fa-facebook-square{
+    background: #3B5998;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-pinterest-square{
+    background: #cb2027;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}

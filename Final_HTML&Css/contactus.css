@@ -1,0 +1,256 @@
+body
+{
+    background-color: #9bc6ab;
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    display: inline-block;
+    color: #03626b;
+    font-family:Noto Serif ;
+    font-weight:bolder;
+    font-style: oblique;
+    position: relative;
+    top:-10px;
+    left:50px;
+    margin-left: 50px;
+    padding:7px ;
+    border:  5px solid #03626b;
+    border-radius: 15px;
+    font-size: 43px;
+
+}
+
+/* The Style of Page 1*/
+.page_1
+{
+    background-color: #dde5bc;
+    height:500px;
+    width: 800px;
+    position: relative;
+    left:27%;
+    top:10px;
+    text-align: center;
+}
+
+.head-page1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #03626b;
+    font-size: 30px;
+    position: relative;
+    top:50px;
+    left:42PX;
+}
+.text-page1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    top:30px;
+    left:60PX;
+}
+
+.form-content
+{
+   
+    padding: 10px;
+    position: relative;
+    top:30px;
+    left:135PX;
+}
+.send-btn
+{
+    background-color: #03626b;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: whitesmoke;
+    position: relative;
+    top:40px;
+    left:30PX;
+}
+
+.send-btn:hover
+{
+    background-color: whitesmoke;
+    color: #03626b
+}
+
+#name
+{
+  padding: 15px 150px 15px 20px;
+  border: none;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  font-size: 16px;
+}
+
+#email
+{
+  padding: 15px 150px 15px 20px;
+  border: none;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  font-size: 16px;
+}
+
+#message
+{
+  padding: 15px 150px 15px 20px;
+  border: none;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  font-size: 16px;
+}
+
+/* The Style of Page 2*/
+ .page_2
+ {
+    position: relative;
+    right:8%;
+    color: whitesmoke;
+    background-color: #03626b;
+    height: 420px;
+    width: 300px;
+    bottom :78%;
+ }
+.head-page2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25;
+    position: relative;
+    right: 40px;
+    top :13%;
+}
+.content
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 17%;
+    margin:30px;
+}
+
+#txt1{
+    margin: 0px 3px;
+}
+#txt2
+{
+   position: relative;
+    right:8px;
+}
+#txt3
+{ 
+    position: relative;
+    right:39px;
+
+}
+#txt4
+{ 
+    position: relative;
+    right:39px;
+
+}
+.icons
+{
+    color: whitesmoke;
+}
+
+.fa-map-marker-alt
+{
+    margin: 5px 13px ;
+    position: relative;
+    right:5px;
+
+}
+.fa-envelope
+{
+    margin: 5px 13px ;
+    position: relative;
+    right:15px;
+}
+.fa-phone
+{
+    margin: 5px 13px ;
+    position: relative;
+    right:40px;
+}
+
+.fa-fax
+{
+    margin: 5px 13px ;
+    position: relative;
+    right:47px;
+}
+
+
+/* The Style of The footer Content */
+footer
+{
+    background-color: #044750 ;
+    padding:20px;
+    text-align: center;
+    position: relative;
+    top:200px;
+}
+.ftr
+{
+  max-width: 960px;
+  margin: 0 auto;
+  color: white;
+}
+p
+{
+  margin: 0;
+}
+
+.media  {
+    font-size: 20px ;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 73%;
+}
+
+.fa-facebook-square{
+    background: #3B5998;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-pinterest-square{
+    background: #cb2027;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}

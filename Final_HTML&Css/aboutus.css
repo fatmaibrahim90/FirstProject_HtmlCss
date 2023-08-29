@@ -1,0 +1,129 @@
+
+body{
+padding: 0;
+margin: 0;
+background-color: #dde5bc;
+}
+
+.logo
+{
+    display: inline-block;
+    color: #03626b;
+    font-family:Noto Serif ;
+    font-weight:bolder;
+    font-style: oblique;
+    position: relative;
+    margin-top: 15px;
+    left:50px;
+    margin-left: 50px;
+    padding:7px ;
+    border:  5px solid #03626b;
+    border-radius: 15px;
+
+}
+
+.about-container
+{
+    background:#03626b ;
+    height: 500px;
+    width:900px;
+    position: relative;
+    left: 240px;
+    top:30px;
+}
+
+.about-head
+{
+    text-align: right;
+    color: #dde5bc;
+    font-size: 50px;
+    position: relative;
+    right: 28%;
+    top: 10%;
+    
+
+}
+.about-text
+{
+    
+    color: #dde5bc;
+    position: relative;
+    left: 40%;
+    top:10%;
+    
+}
+
+.about-video
+{
+    position: relative;
+    
+    bottom:374px;
+}
+
+
+/* The Style of The footer Content */
+footer
+{
+    background-color: #044750 ;
+    padding:20px;
+    text-align: center;
+    position: relative;
+    top:200px;
+}
+.ftr
+{
+  max-width: 960px;
+  margin: 0 auto;
+  color: white;
+}
+p
+{
+  margin: 0;
+}
+
+.media  {
+    font-size: 20px ;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 73%;
+}
+
+.fa-facebook-square{
+    background: #3B5998;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-pinterest-square{
+    background: #cb2027;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}

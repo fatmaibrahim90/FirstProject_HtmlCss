@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundimg
+{
+    background:#9bc6ab;
+    width: 100%;
+}
+
+/* The Style of The Menu Bar */
+  
+.nav
+{ 
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    left: 33%;
+    bottom: 20%;
+}
+ul
+{
+    display: inline-flex; 
+    flex-direction: row; 
+    justify-content: center;
+    position: relative;
+    
+
+      
+    
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+ul li a
+{  
+    text-decoration: none;
+    color: #03626b;
+    font: size 14px;;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    
+   
+}
+ul li a:hover{
+    color:white;
+}
+
+.logo
+{
+    display: inline-block;
+    color: #03626b;
+    font-family:Noto Serif ;
+    font-weight:bolder;
+    font-style: oblique;
+    position: relative;
+    top: 15px;
+    left:50px;
+    margin-left: 50px;
+    padding:7px ;
+    border:  5px solid #03626b;
+    border-radius: 15px;
+
+}
+.search
+{
+
+    display: inline-flex;
+    flex-direction: row; 
+    position: relative;
+    left:32%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.SrchBox
+{
+    width:200px;
+    height: 40px;
+    border: 1px solid #03626b;
+    color: #03626b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', seri;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background:transparent;
+    border-right: none;
+    padding: 10px;
+}
+.SrchBtn
+{
+    width:75px;
+    height: 40px;
+    border: 2px solid #03626b;
+    background: #03626b;
+    color: #9bc6ab;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+button a 
+{
+    text-decoration: none;
+    color:  #9bc6ab;
+}
+
+.SrchBtn:hover
+{
+ background-color: #dde5bc;
+ color: #03626b;
+}
+
+.ShopBtn:hover
+{
+    background-color: #dde5bc;
+    color: #03626b
+}
+/* The Style of The First Content */
+
+.content_1
+{
+     display: inline-flex;
+     flex-direction: column;
+     width:300px;
+     height: 510px;
+}
+
+.header1
+{
+    color: #03626b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    white-space: pre;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    margin-bottom: -35px;
+    font-size: 37px;
+    
+}
+.text1
+{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #03626b;
+    white-space: pre;
+    position: relative;
+    left: 125px;
+    top: 50px;
+    margin-bottom: -35px;
+    margin-bottom: -15px;
+    
+   
+}
+.ShopBtn
+{
+
+    width: 150px;
+    height: 60px;
+    border: 2px solid #03626b;
+    background: #03626b;  
+    color:  #9bc6ab;
+    font-size: 15px;
+    position: relative;
+    left: 160px;
+    top: 50px;
+    padding: 10px 30px 10px 30px;
+    
+}
+.img1 img{
+        
+    margin-right: 55px;
+    margin-block-end: 30px;
+    position: relative;
+    left: 730px;
+    bottom: 260px; 
+    border-bottom-left-radius: 50px;
+} 
+
+/* The Style of The Second Content */
+.content_2
+{
+    background-color:  #dde5bc;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+}
+.header2
+{
+    color: #03626b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    align-self: center;
+    position: relative;
+    top: 50px;
+}
+.text2
+{
+    color: #03626b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    align-self: center;
+    position: relative;
+    top: 65px;
+}
+
+.img234
+{
+    position: relative;
+    top: 95px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/*The Style of The Third content*/
+
+.about-container
+{
+    background:#03626b ;
+    height: 400px;
+    width:700px;
+    position: relative;
+    left: 240px;
+    top:400px;
+}
+
+.about-head
+{
+    text-align: right;
+    color: #dde5bc;
+    font-size: 50px;
+    position: relative;
+    left:47%;
+    top: 7%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+.about-text
+{
+    
+    color: #dde5bc;
+    position: relative;
+    left: 37%;
+    top:53px;
+    
+}
+
+.about-video
+{
+    position: relative;
+    
+    bottom:238px;
+}
+
+.img-bottom img{
+        
+    border-top-left-radius: 100px;
+}
+/* The Style of The footer Content */
+footer
+{
+    background-color: #044750 ;
+    padding:20px;
+    text-align: center;
+    position: relative;
+    top: 800px;
+}
+.ftr
+{
+  max-width: 960px;
+  margin: 0 auto;
+  color: white;
+}
+p
+{
+  margin: 0;
+}
+
+.media  {
+    font-size: 20px ;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 73%;
+}
+
+.fa-facebook-square{
+    background: #3B5998;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
+
+.fa-pinterest-square{
+    background: #cb2027;
+    color: white;
+    padding: 13px  14px;
+    border-radius: 50%;
+}
